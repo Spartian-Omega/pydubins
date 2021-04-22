@@ -23,12 +23,10 @@
 #define _USE_MATH_DEFINES
 #endif
 #ifdef _WIN32
-#include <cmath>
 #define _USE_MATH_DEFINES
 #define INFINITY HUGE_VAL
-#else
-#include <math.h>
 #endif
+#include <math.h>
 #include "dubins.h"
 
 #define EPSILON (10e-10)
