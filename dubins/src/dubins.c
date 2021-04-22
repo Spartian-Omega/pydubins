@@ -24,6 +24,8 @@
 #endif
 #ifdef _WIN32
 #define _USE_MATH_DEFINES
+#include <limits>
+//#define INFINITY std::numeric_limits<double>::infinity()
 #endif
 #include <math.h>
 #include "dubins.h"
